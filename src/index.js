@@ -53,11 +53,8 @@ for (let i = 0; i < morseArr.length; i ++) {
 		if (morseArr[i] === undefined){
 			morseArr[i] =' '
 		}
-	}else {
-		morseArr[i]=' '
 	}
 		
-	
 }
 return morseArr.join('')
 }
